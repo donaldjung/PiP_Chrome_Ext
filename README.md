@@ -3,16 +3,23 @@ Google chrome extension allowing picture in picture (video popout) for any video
 
 To use it...Load the extension in Chrome:
 
-Go to chrome://extensions/
+1. Create a new folder with three files:
+manifest.json
+background.js
+content.js
+Your icon files (icon48.png and icon128.png)
+
+
+2. Go to chrome://extensions/
 Enable "Developer mode" (top right)
 Click "Load unpacked"
 Select your extension directory
 
-Features:
+3. To use click extention in the google chrome toolbar of the webpage containing a Video.
 
+Features:
 Works on any webpage with video elements (
 Automatically finds the currently playing video, or defaults to the first video on the page
-Adds a custom PiP button to all videos
 Handles errors gracefully with user feedback
 Supports toggling PiP mode on/off
 
